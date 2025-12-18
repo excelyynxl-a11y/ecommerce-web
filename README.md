@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Next.js E-Commerce Platform
 
-## Getting Started
+A modern **full-stack e-commerce web application** built with **Next.js 15**, **Tailwind CSS**, **Zustand**, and **Stripe**.  
+The platform supports a complete shopping flow including cart management and secure checkout using Stripe.
 
-First, run the development server:
+> ⚠️ **Note:** The application is currently configured to run in **Stripe Test Mode** due to account limitations (baby girl still doesnt have a MyTIN).  
+> With a fully verified Stripe account, **real payments can be processed without any code changes**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🛍️ Product listing page
+- 🧺 Shopping cart 
+- 💳 Secure checkout with Stripe
+- 🧾 Order summary & payment confirmation
+- 📱 Rsponsive UI
+- 🎨 Clean UI with Tailwind CSS
+- ⚡ App Router & Server Actions (Next.js 15)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Technology     | Usage |
+|----------------|-------|
+| **Next.js 15** | App Router, Server Components |
+| **Tailwind CSS** | Styling & responsive layout |
+| **Zustand** | Global state management (cart) |
+| **Stripe** | Payment processing |
+| **TypeScript** | Type safety |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💳 Stripe Integration
 
-## Deploy on Vercel
+The application uses **Stripe Checkout** for payment processing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Current Status
+- ✅ Stripe **Test Mode** enabled
+- ❌ Live payments disabled (no verified Stripe account / MyTIN)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Important
+Once a **fully verified Stripe account** is connected:
+- Real payments can be accepted
+- No code changes required
+- Simply replace test keys with live keys
+
+---
+
+## 👾 Demo
+For the payment section, feel free to use some mock card detail provided by Stripe as below (trust me its safe to use):
+- Brand: VISA
+- Number: 4242424242424242
+- CVC: any 3 digits (eg: 999)
+- Date: any future date (eg: 12/28)
+
+### 👧 Try now:
+**Deployed on Vercel:** ()
