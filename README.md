@@ -56,4 +56,4 @@ For the payment section, feel free to use some mock card detail provided by Stri
 - Date: any future date (eg: 12/28)
 
 ### 👧 Try now:
-**Deployed on Vercel:** ()
+**Deployed on Vercel:** (https://ecommerce-web-weld-one.vercel.app/)
